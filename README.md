@@ -21,17 +21,6 @@ To streamline the process of bulk web scraping and secure data transfer.
 - `scp` for secure file transfer.
 - Appropriate permissions for file operations and server access.
 
-### Installation
-Provide instructions for installing `wget` and `scp` if not already available on the user's system.
-
-## Installation and Setup
-
-### Downloading the App
-Steps to clone/download your repository.
-
-### Configuration
-Instructions for setting up the application, including the setup of `input.txt`.
-
 ## Usage
 
 ### Basic Usage
@@ -43,8 +32,3 @@ Before running the script, ensure the following steps are completed:
 ```bash
 source scraper.sh
 ```
-
-## Troubleshooting
-
-### Common Issues
-Solutions to common problems like permission errors, `wget` or `scp` failures, etc.
