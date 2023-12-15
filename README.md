@@ -35,8 +35,10 @@ Instructions for setting up the application, including the setup of `input.txt`.
 ## Usage
 
 ### Basic Usage
-- Prepare `input.txt` with directory and **URLs** names line by line, separated by semicolon.
-- Run the script to initiate scraping, storing, transferring, and cleanup.
+Before running the script, ensure the following steps are completed:
+1. **Prepare the .env File**: Create a `.env` file in the root directory of the project and add your SSH credentials for secure file transfer. This should include details like `SSH_USER`, `SSH_HOST`, and `SSH_PATH`.
+2. **Configure input.txt**: Prepare `input.txt` with **directory names** and **URLs** line by line, separated by semicolon.
+3. **Run the Script**: Execute the script to start the scraping process. It will read URLs from `input.txt`, scrape data using `wget`, save it in specified directories, transfer it to the server via `scp`, and then clean up local data.
 
 ```bash
 source scraper.sh
@@ -45,7 +47,7 @@ source scraper.sh
 ## File Format
 
 ### input.txt Structure
-Describe the expected format of `input.txt`, including how to list **directory names** and **URLs**, line by line and separated by semicolon.
+Describe the expected format of `input.txt`, including how to list **directory names** and **URLs**, line by line and separated by a semicolon.
 
 ## Troubleshooting
 
