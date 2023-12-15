@@ -25,9 +25,9 @@ To streamline the process of bulk web scraping and secure data transfer.
 
 ### Basic Usage
 Before running the script, ensure the following steps are completed:
-1. **Prepare the .env File**: Create a `.env` file in the root directory of the project and add your SSH credentials for secure file transfer. This should include details like `SSH_USER`, `SSH_HOST`, and `SSH_PATH`.
-2. **Configure input.txt**: Prepare `input.txt` by listing **directory names** and **URLs** separated by a semicolon (`;`), with each pair on a new line.
-3. **Run the Script**: Execute the script to start the scraping process. It will read URLs from `input.txt`, scrape data using `wget`, save it in specified directories, transfer it to the server via `scp`, and then clean up local data.
+1. **Prepare the `.env` file**: create a `.env` file in the root directory of the project and add your SSH credentials for secure file transfer. This should include details like `SSH_USER`, `SSH_HOST`, and `SSH_PATH`.
+2. **Configure `input.txt`**: prepare `input.txt` by listing **directory names** and **URLs** separated by a semicolon (`;`), with each pair on a new line.
+3. **Run the script**: execute the script to start the scraping process. It will read URLs from `input.txt`, scrape data using `wget`, save it in specified directories, transfer it to the server via `scp`, and then clean up local data.
 
 ```bash
 source scraper.sh
