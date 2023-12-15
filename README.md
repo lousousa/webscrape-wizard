@@ -1,4 +1,4 @@
-# WebScrape Wizard
+# WebScrape Wizard ![cli](https://badges.aleen42.com/src/cli.svg)
 
 ## Description
 A robust web scraping tool that automates data extraction from URLs listed in an input file, organizes scraped data into specified directories, securely transfers data to a remote server, and maintains a clean local workspace by removing local copies after transfer.
